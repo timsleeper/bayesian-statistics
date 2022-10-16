@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "bayesian-statistics"
+version = "0.1.0"
+description = ""
+authors = ["Felipe Tadeu"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.7,<3.11"
+pymc3 = "^3.11.5"
+notebook = "^6.5.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
